@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Date.h</itemPath>
+      <itemPath>Inventory.h</itemPath>
+      <itemPath>Sales.h</itemPath>
+      <itemPath>StockItem.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>inventory.txt</itemPath>
+      <itemPath>sales.txt</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Date.c</itemPath>
+      <itemPath>Inventory.c</itemPath>
+      <itemPath>Sales.c</itemPath>
+      <itemPath>StockItem.c</itemPath>
+      <itemPath>StockProgram.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>10</standard>
+        </cTool>
+      </compileType>
+      <item path="Date.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Date.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Inventory.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Inventory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sales.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Sales.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StockItem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="StockItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StockProgram.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="inventory.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sales.txt" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <standard>10</standard>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Date.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Date.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Inventory.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Inventory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sales.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Sales.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StockItem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="StockItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StockProgram.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="inventory.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sales.txt" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
